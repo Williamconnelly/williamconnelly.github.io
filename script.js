@@ -13,5 +13,5 @@ var addIconHover = () => {
 };
 
 document.addEventListener("DOMContentLoaded", e => {
-  
+  M.AutoInit();
 });

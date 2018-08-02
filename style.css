@@ -1,6 +1,7 @@
 body {
   background-color:#ffffff;
   text-align: center;
+  font-family: 'Archivo', sans-serif;
 }
 
 .nav-wrapper {
@@ -9,4 +10,16 @@ body {
 
 .nav-wrapper a {
   color: black;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+.landing-icon {
+  margin: 0 0.3em;
+}
+
+.landing-icon:hover {
+  color: lightskyblue;
 }

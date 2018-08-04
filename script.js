@@ -13,6 +13,19 @@ var addIconHover = () => {
   });
 };
 
+var addGifHover = () => {
+  const previews = Array.from(document.getElementsByClassName("preview-image"));
+  previews.forEach(image => {
+    image.addEventListener("mouseover", () => {
+      image.src = "danmaku.gif";
+    })
+    image.addEventListener("mouseout", () => {
+      image.src = "danmaku.png";
+    });
+  });
+};
+
 document.addEventListener("DOMContentLoaded", e => {
   M.AutoInit();
+  addGifHover();
 });

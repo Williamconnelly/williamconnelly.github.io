@@ -25,23 +25,13 @@ h2 {
   color: lightskyblue;
 }
 
-.technologies ul li {
-  display: inline-block;
-  margin: 0.5em;
-  max-width: 120px;
-  min-width: 100px;
-  max-height: 124px;
-  min-height: 124px;
-  background-color: white;
-}
-
-.technologies li p {
-  margin: 0;
+.skillbox p {
+  margin: 0.1em 0;
   padding: 0;
   font-size: 0.8em;
 }
 
-.technologies i {
+.skillbox i {
   font-size: 4em;
 }
 
@@ -51,4 +41,20 @@ h2 {
 
 .hoveredIcon {
   font-size: 1.2em;
+}
+
+.skillbox{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "";
+}
+
+.front-end, .back-end {
+  margin: 0 auto;
+}
+
+.align {
+  text-align: center;
 }

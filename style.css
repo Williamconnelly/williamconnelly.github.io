@@ -1,15 +1,47 @@
 body {
-  background-color:#ffffff;
+  /* background-color:#3a373a; */
   text-align: center;
   font-family: 'Archivo', sans-serif;
+  /* background-image: url("free5.jpeg"); */
+  background-position: center center;  
+  background-attachment: fixed;
+  background-size: cover;
+  color: #dfdfdf;
+}
+
+body {
+  background: linear-gradient(270deg, #448fe6, #5496e3, #77acea);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 .nav-wrapper {
-  background-color: white;;
+  /* background-color: white; */
+}
+
+nav {
+  background-color: transparent;
 }
 
 .nav-wrapper a {
-  color: black;
+  color: #dfdfdf;
 }
 
 h2 {
@@ -18,7 +50,7 @@ h2 {
 
 .landing-icon {
   margin: 0.7em 0.3em;
-  color: black;
+  color: #dfdfdf;
 }
 
 .landing-icon:hover {
@@ -106,7 +138,7 @@ h2 {
 
 .project-box li {
   display: inline-block;
-  border: 1px solid black;
+  border: 1px solid #dfdfdf;
   background-color: rgb(77, 77, 77);
   padding: 0.5em;
   border-radius: 0.5em;
@@ -121,9 +153,9 @@ h2 {
 }
 
 .project-button {
-  color: black;
+  color: #dfdfdf;
   margin: 0 0.5em;
-  border: 1px solid black;
+  border: 1px solid #dfdfdf;
   padding: .4em;
   border-radius: 0.2em;
   transition: all 0.3s ease; 
@@ -155,4 +187,21 @@ h2 {
   .project-box ul {
     margin: 0;
   }
+}
+
+hr.style18 { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #ffffff; 
+  border-width: 1px 0 0 0; 
+} 
+
+hr.style18:before { 
+  display: block; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #ffffff; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
 }

@@ -55,3 +55,34 @@ h2 {
   margin: 0 auto;
 }
 
+.project-box {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "danmaku ."
+                       "danmaku ."
+                       "danmaku ."
+                       "danmaku .";
+}
+
+.project-box h4 {
+  margin: 0;
+}
+
+.danmaku {
+  grid-area: danmaku
+}
+
+.project-button {
+  color: black;
+  margin: 0 0.5em;
+  border: 1px solid black;
+  padding: .4em;
+  border-radius: 0.2em;
+  transition: all 0.3s ease; 
+}
+
+.project-button:hover {
+  background-color: lightblue;
+}

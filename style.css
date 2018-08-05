@@ -66,7 +66,7 @@ h2 {
                        "preview-image danmaku-tech";
 }
 
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 890px) {
   .project-box {
     display: inline-block;
   }
@@ -96,6 +96,10 @@ h2 {
   grid-area: danmaku-tech;
 }
 
+.project-box img {
+  border-radius: 1em;
+}
+
 .project-box h4 {
   margin: 0;
 }
@@ -108,15 +112,12 @@ h2 {
   border-radius: 0.5em;
   font-size: 0.8em;
   color: white;
+  margin-bottom: 1em;
 }
 
 .project-box ul {
   margin: 0;
   padding: 0;
-}
-
-.project-box span {
-
 }
 
 .project-button {
@@ -129,7 +130,29 @@ h2 {
   display: inline-block;
 }
 
+.project-box span {
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.project-box ul {
+  display: inline-block;
+  margin-top: 2em;
+}
+
 .project-button:hover {
   background-color: lightblue;
 }
 
+.punchcard-img {
+  margin-left: 15em;
+}
+
+@media only screen and (max-width: 890px) {
+  .punchcard-img {
+    margin: 0 0 1em 0;
+  }
+  .project-box ul {
+    margin: 0;
+  }
+}

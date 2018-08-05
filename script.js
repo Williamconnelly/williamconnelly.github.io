@@ -23,6 +23,10 @@ var addGifHover = () => {
           break;
         case(image.classList.contains("movielist-img")):
           image.src = "movielist.gif"
+          break;
+        case(image.classList.contains("punchcard-img")):
+          image.src = "punchcard.gif"
+          break;
         default:
           break;
       }
@@ -34,6 +38,10 @@ var addGifHover = () => {
           break;
         case(image.classList.contains("movielist-img")):
           image.src = "movielist.png"
+          break;
+        case(image.classList.contains("punchcard-img")):
+          image.src = "punchcard.png"
+          break;
         default:
           break;
       }

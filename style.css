@@ -60,23 +60,23 @@ h2 {
   width: 100%;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 4em 4em 6em 10em;
-  grid-template-areas: "danmaku-img danmaku-title"
-                       "danmaku-img danmaku-buttons"
-                       "danmaku-img danmaku-desc"
-                       "danmaku-img danmaku-tech";
+  grid-template-areas: "preview-image danmaku-title"
+                       "preview-image danmaku-buttons"
+                       "preview-image danmaku-desc"
+                       "preview-image danmaku-tech";
 }
 
 @media only screen and (max-width: 790px) {
   .project-box {
     display: inline-block;
   }
-  .danmaku-img, .danmaku-title, .danmaku-buttons, .danmaku-desc, .danmaku-tech {
+  .preview-image, .danmaku-title, .danmaku-buttons, .danmaku-desc, .danmaku-tech {
     margin-bottom: 1em;
   }
 }
 
-.danmaku-img {
-  grid-area: danmaku-img;
+.preview-image {
+  grid-area: preview-image;
 }
 
 .danmaku-title {

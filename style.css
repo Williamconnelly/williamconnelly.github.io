@@ -59,19 +59,64 @@ h2 {
   display: grid;
   width: 100%;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "danmaku ."
-                       "danmaku ."
-                       "danmaku ."
-                       "danmaku .";
+  grid-template-rows: 4em 4em 6em 10em;
+  grid-template-areas: "danmaku-img danmaku-title"
+                       "danmaku-img danmaku-buttons"
+                       "danmaku-img danmaku-desc"
+                       "danmaku-img danmaku-tech";
+}
+
+@media only screen and (max-width: 790px) {
+  .project-box {
+    display: inline-block;
+  }
+  .danmaku-img, .danmaku-title, .danmaku-buttons, .danmaku-desc, .danmaku-tech {
+    margin-bottom: 1em;
+  }
+}
+
+.danmaku-img {
+  grid-area: danmaku-img;
+}
+
+.danmaku-title {
+  grid-area: danmaku-title;
+}
+
+.danmaku-buttons {
+  grid-area: danmaku-buttons;
+}
+
+.danmaku-desc {
+  grid-area: danmaku-desc;
+  padding: 0 3em;
+}
+
+.danmaku-tech {
+  grid-area: danmaku-tech;
 }
 
 .project-box h4 {
   margin: 0;
 }
 
-.danmaku {
-  grid-area: danmaku
+.project-box li {
+  display: inline-block;
+  border: 1px solid black;
+  background-color: rgb(77, 77, 77);
+  padding: 0.5em;
+  border-radius: 0.5em;
+  font-size: 0.8em;
+  color: white;
+}
+
+.project-box ul {
+  margin: 0;
+  padding: 0;
+}
+
+.project-box span {
+
 }
 
 .project-button {
@@ -81,8 +126,10 @@ h2 {
   padding: .4em;
   border-radius: 0.2em;
   transition: all 0.3s ease; 
+  display: inline-block;
 }
 
 .project-button:hover {
   background-color: lightblue;
 }
+

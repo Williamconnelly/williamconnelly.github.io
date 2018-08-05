@@ -10,7 +10,7 @@ body {
 }
 
 body {
-  background: linear-gradient(270deg, #448fe6, #5496e3, #77acea);
+  background: linear-gradient(270deg, #4490e6, #2c7edb, #257fe6);
   background-size: 600% 600%;
   -webkit-animation: AnimationName 30s ease infinite;
   -moz-animation: AnimationName 30s ease infinite;
@@ -54,7 +54,28 @@ h2 {
 }
 
 .landing-icon:hover {
-  color: lightskyblue;
+  color: #e68244;
+}
+
+.headline4 {
+  position: relative;
+  border-color: #4d4d4d;
+  border-style: solid;
+  border-width: 5px 5px 5px 0;
+  background: #fff;
+  margin: 0 0 15px;
+  box-shadow: 1px 1px 1px #0000004d;
+  color: #4490e6;
+}
+
+.skill-container {
+  padding: 1em;
+  background-color: #ffffff;
+  color: #4d4d4d;
+}
+
+.skill-container h6 {
+  margin: 0 0 0.5em 0;  
 }
 
 .skillbox p {
@@ -139,7 +160,7 @@ h2 {
 .project-box li {
   display: inline-block;
   border: 1px solid #dfdfdf;
-  background-color: rgb(77, 77, 77);
+  background-color: #4d4d4d;
   padding: 0.5em;
   border-radius: 0.5em;
   font-size: 0.8em;
@@ -173,7 +194,7 @@ h2 {
 }
 
 .project-button:hover {
-  background-color: lightblue;
+  background-color: #e68244
 }
 
 .punchcard-img {
@@ -189,19 +210,18 @@ h2 {
   }
 }
 
-hr.style18 { 
+hr.style { 
   height: 30px; 
   border-style: solid; 
-  border-color: #ffffff; 
+  border-color: #dfdfdf;
   border-width: 1px 0 0 0; 
 } 
 
-hr.style18:before { 
+hr.style :before { 
   display: block; 
   height: 30px; 
   margin-top: -31px; 
   border-style: solid; 
-  border-color: #ffffff; 
+  border-color: #dfdfdf;
   border-width: 0 0 1px 0; 
-  border-radius: 20px; 
 }

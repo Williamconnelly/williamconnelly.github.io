@@ -255,6 +255,11 @@ hr.style :before {
   margin-bottom: 1em;
 }
 
+.about-desc a {
+  color: #dfdfdf;
+  text-decoration: underline;
+}
+
 /* .about-container p {
   margin: 0;
   padding: 0;

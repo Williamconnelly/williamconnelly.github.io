@@ -1,8 +1,6 @@
 body {
-  /* background-color:#3a373a; */
   text-align: center;
   font-family: 'Archivo', sans-serif;
-  /* background-image: url("free5.jpeg"); */
   background-position: center center;  
   background-attachment: fixed;
   background-size: cover;
@@ -16,24 +14,23 @@ body {
   -moz-animation: AnimationName 30s ease infinite;
   animation: AnimationName 30s ease infinite;
 }
+
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+
 @-moz-keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+
 @keyframes AnimationName { 
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
-}
-
-.nav-wrapper {
-  /* background-color: white; */
 }
 
 nav {
@@ -51,10 +48,12 @@ h2 {
 .landing-icon {
   margin: 0.7em 0.3em;
   color: #dfdfdf;
+  transition: all 0.3s ease; 
 }
 
 .landing-icon:hover {
-  color: #e68244;
+  color: #FF9612;
+
 }
 
 .headline4 {
@@ -72,6 +71,8 @@ h2 {
   padding: 1em;
   background-color: #ffffff;
   color: #4d4d4d;
+  border-radius: 1em;
+  margin-bottom: 4em;
 }
 
 .skill-container h6 {
@@ -113,17 +114,17 @@ h2 {
   width: 100%;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 4em 4em 6em 10em;
-  grid-template-areas: "preview-image danmaku-title"
-                       "preview-image danmaku-buttons"
-                       "preview-image danmaku-desc"
-                       "preview-image danmaku-tech";
+  grid-template-areas: "preview-image project-title"
+                       "preview-image project-buttons"
+                       "preview-image project-desc"
+                       "preview-image project-tech";
 }
 
 @media only screen and (max-width: 890px) {
   .project-box {
     display: inline-block;
   }
-  .preview-image, .danmaku-title, .danmaku-buttons, .danmaku-desc, .danmaku-tech {
+  .preview-image, .project-title, .project-buttons, .project-desc, .project-tech {
     margin-bottom: 1em;
   }
 }
@@ -132,21 +133,21 @@ h2 {
   grid-area: preview-image;
 }
 
-.danmaku-title {
-  grid-area: danmaku-title;
+.project-title {
+  grid-area: project-title;
 }
 
-.danmaku-buttons {
-  grid-area: danmaku-buttons;
+.project-buttons {
+  grid-area: project-buttons;
 }
 
-.danmaku-desc {
-  grid-area: danmaku-desc;
+.project-desc {
+  grid-area: project-desc;
   padding: 0 3em;
 }
 
-.danmaku-tech {
-  grid-area: danmaku-tech;
+.project-tech {
+  grid-area: project-tech;
 }
 
 .project-box img {
@@ -194,7 +195,7 @@ h2 {
 }
 
 .project-button:hover {
-  background-color: #e68244
+  background-color: #FF9612;
 }
 
 .punchcard-img {
@@ -224,4 +225,50 @@ hr.style :before {
   border-style: solid; 
   border-color: #dfdfdf;
   border-width: 0 0 1px 0; 
+}
+
+.skill-container hr {
+  margin-bottom: 1em;
+}
+
+.about-desc {
+  font-family: sans-serif;
+  font-size: 1.4em;
+  text-align: left;
+  padding: 0 2em;
+  display: inline-block;
+  vertical-align: top;
+  width: 40vw;
+}
+
+.about-img {
+  display: inline-block;
+}
+
+.about-img img {
+  height: 20em;
+  border-radius: 1em;
+}
+
+.about-container {
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+/* .about-container p {
+  margin: 0;
+  padding: 0;
+} */
+
+@media only screen and (max-width: 890px) {
+  .about-container {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .about-desc {
+    width: 100%;
+    padding: 0;
+  }
 }

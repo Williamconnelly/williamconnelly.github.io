@@ -1,31 +1,17 @@
-
-// Landing Page Icon Hover
-var addIconHover = () => {
-  const landingIcons = Array.from(document.getElementsByClassName("landing-icon"));
-  landingIcons.forEach(icon => {
-    icon.addEventListener("mouseover", () =>{
-      icon.classList.add("hoveredIcon");
-    })
-    icon.addEventListener("mouseout", () =>{
-      console.log("OUT");
-      icon.classList.remove("hoveredIcon");
-    });
-  });
-};
-
+// Add img src swapping when hovered
 var addGifHover = () => {
   const previews = Array.from(document.getElementsByClassName("preview-image"));
   previews.forEach(image => {
     image.addEventListener("mouseover", () => {
       switch(true) {
         case(image.classList.contains("danmaku-img")):
-          image.src = "danmaku.gif";
+          image.src = "static/img/danmaku.gif";
           break;
         case(image.classList.contains("movielist-img")):
-          image.src = "movielist.gif"
+          image.src = "static/img/movielist.gif"
           break;
         case(image.classList.contains("punchcard-img")):
-          image.src = "punchcard.gif"
+          image.src = "static/img/punchcard.gif"
           break;
         default:
           break;
@@ -34,13 +20,13 @@ var addGifHover = () => {
     image.addEventListener("mouseout", () => {
       switch(true) {
         case(image.classList.contains("danmaku-img")):
-          image.src = "danmaku.png";
+          image.src = "static/img/danmaku.png";
           break;
         case(image.classList.contains("movielist-img")):
-          image.src = "movielist.png"
+          image.src = "static/img/movielist.png"
           break;
         case(image.classList.contains("punchcard-img")):
-          image.src = "punchcard.png"
+          image.src = "static/img/punchcard.png"
           break;
         default:
           break;

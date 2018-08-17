@@ -53,18 +53,12 @@ h2 {
 
 .landing-icon:hover {
   color: #FF9612;
-
 }
 
 .headline4 {
   position: relative;
-  border-color: #4d4d4d;
-  border-style: solid;
-  border-width: 5px 5px 5px 0;
-  background: #fff;
-  margin: 0 0 15px;
-  box-shadow: 1px 1px 1px #0000004d;
-  color: #4490e6;
+  /* margin: 0 0 15px; */
+  font-size: 4em;
 }
 
 .skill-container {

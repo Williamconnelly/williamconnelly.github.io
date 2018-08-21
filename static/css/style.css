@@ -407,7 +407,6 @@ nav a {
   .landing-content {
     width: 100%;
   }
-
   .landing-content h2 {
     font-size: 1.2em;
   }
@@ -419,6 +418,9 @@ nav a {
   }
   .about-wrapper {
     width: 70vw;
+  }
+  .nav a {
+    margin: 0 0.2em;
   }
 }
 

@@ -39,7 +39,7 @@ body {
   background-size: cover;
   overflow: hidden;
   background-position: center;
-  padding: 20px 15px;
+  padding: 20px 0;
 }
 
 .landing-content {
@@ -418,9 +418,6 @@ nav a {
   }
   .about-wrapper {
     width: 70vw;
-  }
-  .nav a {
-    margin: 0 0.2em;
   }
 }
 

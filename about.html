@@ -1,97 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>William Connelly</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Archivo:700" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Raleway:400,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
+    crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link rel="stylesheet" type="text/css" href="static/css/style.css">
-  </head>
+    <title>William Connelly</title>
+    <link rel="stylesheet" href="static/css/style.css">
+  </head> 
   <body>
-    <div class="container">
-      <nav class="z-depth-0">
-        <div class="nav-wrapper">
-          <ul id="nav-mobile" class="right">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-          </ul>
-        </div>
+    <div class="site-wrapper">
+      <nav class="nav-buttons">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
       </nav>
-      <h2 class="headline4">About Me</h2>
-      <div class="about-container">
-        <div class="about-img">
-          <img class="responsive-img" src="static/img/cropheadshot.jpg" alt="William Connelly">
+      <header class="page-header">
+        <h1>William Connelly</h1>
+        <h3>Full-Stack Web Developer</h3>
+      </header>
+      <div class="about-wrapper">
+        <div class="profile-image">
+          <img src="static/img/headshot.jpg" alt="Profile Picture">
         </div>
-        <div class="about-desc">
+        <div class="about-content">
           <p>Hi, I'm Will!</p>
           <p>I'm a writer turned web-developer based out of the Seattle area.</p>
-          <p>I enjoy designing web applications with a variety of technologies but currently I 
-          am most interested in React. Please do <a href="index.html">reach out to me </a>if you're
-          looking for a developer</p>
+          <p>
+            I enjoy designing web applications with a variety of technologies and I'm passionate about
+            improving my existing skillset while constantly augmenting it with new technologies. You can see 
+            some of the applications of the technologies I've used in my <a href="/projects">Projects</a>.
+            Currently, I'm excited about front-end, component-based frameworks like React. 
+          </p>
         </div>
-      </div>
-      <div class="skill-container">
-        <h6>Technologies</h6>
-        <hr />
-        <div class="front-end skillbox">
-          <div class="">
-            <i class="devicon-html5-plain colored"></i>
-            <p>HTML5</p>
+        <div class="skill-container">
+          <h6>Front-End Technologies</h6>
+          <hr />
+          <div class="front-end skillbox">
+            <div class="">
+              <i class="devicon-html5-plain colored"></i>
+              <p>HTML5</p>
+            </div>
+            <div class="">
+              <i class="devicon-javascript-plain colored"></i>
+              <p>JavaScript</p>
+            </div>
+            <div class="">
+              <i class="devicon-css3-plain colored"></i>
+              <p>CSS3</p>
+            </div>
+            <div class="">
+              <i class="devicon-react-original colored"></i>
+              <p>React</p>
+            </div>
+            <div class="">
+              <i class="devicon-jquery-plain colored"></i>
+              <p>jQuery</p>
+            </div>
           </div>
-          <div class="">
-            <i class="devicon-javascript-plain colored"></i>
-            <p>JavaScript</p>
-          </div>
-          <div class="">
-            <i class="devicon-css3-plain colored"></i>
-            <p>CSS3</p>
-          </div>
-          <div class="">
-            <i class="devicon-react-original colored"></i>
-            <p>React</p>
-          </div>
-          <div class="">
-            <i class="devicon-jquery-plain colored"></i>
-            <p>jQuery</p>
-          </div>
-        </div>
-        <div class="back-end skillbox">
-          <div class="">
-            <i class="devicon-nodejs-plain colored"></i>
-            <p>Node.js</p>
-          </div>
-          <div class="">
-            <i class="devicon-express-original colored"></i>
-            <p>Express</p>
-          </div>
-          <div class="">
-            <i class="devicon-postgresql-plain colored"></i>
-            <p>PostgreSQL</p>
-          </div>
-          <div class="">
-            <i class="devicon-sequelize-plain colored"></i>
-            <p>Sequelize</p>
-          </div>
-          <div class="">
-            <i class="devicon-mongodb-plain colored"></i>
-            <p>mongoDB</p>
-          </div>
-          <div class="">
-            <i class="devicon-python-plain python-icon"></i>
-            <p>Python3</p>
-          </div>
-          <div class="">
-            <i class="devicon-django-plain colored"></i>
-            <p>Django</p>
+          <h6>Back-End Technologies</h6>
+          <hr />
+          <div class="back-end skillbox">
+            <div class="">
+              <i class="devicon-nodejs-plain colored"></i>
+              <p>Node.js</p>
+            </div>
+            <div class="">
+              <i class="devicon-express-original colored"></i>
+              <p>Express</p>
+            </div>
+            <div class="">
+              <i class="devicon-postgresql-plain colored"></i>
+              <p>PostgreSQL</p>
+            </div>
+            <div class="">
+              <i class="devicon-sequelize-plain colored"></i>
+              <p>Sequelize</p>
+            </div>
+            <div class="">
+              <i class="devicon-mongodb-plain colored"></i>
+              <p>mongoDB</p>
+            </div>
+            <div class="">
+              <i class="devicon-python-plain python-icon"></i>
+              <p>Python3</p>
+            </div>
+            <div class="">
+              <i class="devicon-django-plain colored"></i>
+              <p>Django</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-    <script src="static/js/script.js"></script>
+    <footer class="footer">
+      <p>© 2018 William Connelly</p>
+      <span style="font-size: 1.5em;">
+        <a href="https://github.com/Williamconnelly" target="_blank"><i class="fab fa-github landing-icon"></i></a>
+        <a href="https://www.linkedin.com/in/williamrconnelly/" target="_blank"><i class="fab fa-linkedin landing-icon"></i></a>
+        <a href="mailto:williamconnelly.dev@gmail.com"><i class="fas fa-envelope-square landing-icon"></i></a>
+        <a href="static/resume/WilliamConnelly-Resume.pdf" target="_blank"><i class="fas fa-file-download 
+          landing-icon"></i></a>
+      </span>
+    </footer>
+  <script src="static/js/script.js"></script>
   </body>
 </html>

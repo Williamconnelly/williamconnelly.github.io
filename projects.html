@@ -1,97 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>William Connelly</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Raleway:400,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
     integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
     crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Archivo:700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="static/css/style.css">
-  </head>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <title>William Connelly</title>
+    <link rel="stylesheet" href="static/css/style.css">
+  </head> 
   <body>
-    <div class="container">
-      <nav class="z-depth-0">
-        <div class="nav-wrapper">
-          <ul id="nav-mobile" class="right">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-          </ul>
-        </div>
+    <div class="site-wrapper">
+      <nav class="nav-buttons">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
       </nav>
-      <h2 class="headline4">Projects</h2>
-      <div class="project-box">
-        <img class="responsive-img preview-image danmaku-img" src="static/img/danmaku.png" alt="Danmaku Game">
-        <div class="project-title">
-          <h4>Danmaku</h4>
+      <header class="page-header">
+        <h1>William Connelly</h1>
+        <h3>Full-Stack Web Developer</h3>
+      </header>
+      <header class="project-prompt">
+        <h3>Hover or touch images to show previews! Click on Details for more project information.</h3>
+      </header>
+      <div class="projects-wrapper">
+        <div class="project-card">
+          <img class="preview-image danmaku-img" src="static/img/danmaku.png" alt="Danmaku Game">
+          <div class="project-content">
+            <div class="project-title">
+              <h2>Danmaku</h2>
+            </div>
+            <div class="project-buttons">
+              <a class="project-button" href="/projects/danmaku">DETAILS</a>
+              <a class="project-button" href="https://williamconnelly.github.io/danmaku-project/" target="_blank">LIVE SITE</a>
+              <a class="project-button" href="https://github.com/Williamconnelly/danmaku-project" target="_blank">CODE</a>
+            </div>
+            <div class="project-desc">
+              <p>Javascript game made in the style of a classic arcade shooter</p>
+            </div>
+            <div class="project-tech">
+              <ul>
+                <li>HTML</li>
+                <li>Javascript</li>
+                <li>CSS3</li>
+                <li>jQuery</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="project-buttons">
-          <a class="project-button" href="https://williamconnelly.github.io/danmaku-project/" target="_blank">LIVE SITE</a>
-          <a class="project-button" href="https://github.com/Williamconnelly/danmaku-project" target="_blank">CODE</a>
+        <div class="project-card">
+          <img class="preview-image goodmarket-img" src="static/img/goodmarket.png" alt="Good Market">
+          <div class="project-content">
+            <div class="project-title">
+              <h2>Good Market</h2>
+            </div>
+            <div class="project-buttons">
+              <a class="project-button" href="/projects/goodmarket">DETAILS</a>
+              <a class="project-button" href="https://good-market.herokuapp.com/" target="_blank">LIVE SITE</a>
+              <a class="project-button" href="https://github.com/Williamconnelly/goodmarket" target="_blank">CODE</a>
+            </div>
+            <div class="project-desc">
+              <p>An e-commerce site where users can list and purchase each other's items while raising money for charity</p>
+            </div>
+            <div class="project-tech">
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Python</li>
+                <li>Django</li>
+                <li>PostgreSQL</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="project-desc">
-          <span>Javascript game made in the style of a classic arcade shooter</span>
+        <div class="project-card">
+          <img class="preview-image movielist-img" src="static/img/movielist.png" alt="Movie List">
+          <div class="project-content">
+            <div class="project-title">
+              <h2>MovieList</h2>
+            </div>
+            <div class="project-buttons">
+              <a class="project-button" href="/projects/movielist">DETAILS</a>
+              <a class="project-button" href="https://express-movielist.herokuapp.com/" target="_blank">LIVE SITE</a>
+              <a class="project-button" href="https://github.com/Williamconnelly/movielist" target="_blank">CODE</a>
+            </div>
+            <div class="project-desc">
+              <p>Movie cataloguing and rating site. Search, Find, Add, and Rate your favorite movies</p>
+            </div>
+            <div class="project-tech">
+              <ul>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>PostgreSQL</li>
+                <li>Sequelize</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="project-tech">
-          <ul>
-            <li>HTML</li>
-            <li>Javascript</li>
-            <li>CSS3</li>
-            <li>jQuery</li>
-          </ul>
-        </div>
-      </div>
-      <hr class="style" />
-      <div class="project-box">
-        <img class="responsive-img preview-image movielist-img" src="static/img/movielist.png" alt="MovieList">
-        <div class="project-title">
-          <h4>MovieList</h4>
-        </div>
-        <div class="project-buttons">
-          <a class="project-button" href="https://express-movielist.herokuapp.com/" target="_blank">LIVE SITE</a>
-          <a class="project-button" href="https://github.com/Williamconnelly/movielist" target="_blank">CODE</a>
-        </div>
-        <div class="project-desc">
-          <span>Movie cataloguing and rating site. Search, Find, Add, and Rate your favorite movies</span>
-        </div>
-        <div class="project-tech">
-          <ul>
-            <li>Node.js</li>
-            <li>Express</li>
-            <li>PostgreSQL</li>
-            <li>Sequelize</li>
-          </ul>
-        </div>
-      </div>
-      <hr class="style" />
-      <div class="project-box">
-        <img class="responsive-img preview-image punchcard-img" src="static/img/punchcard.png" alt="PunchCard">
-        <div class="project-title">
-          <h4>Punch Card</h4>
-        </div>
-        <div class="project-buttons">
-          <a class="project-button" href="https://punch-card.herokuapp.com/" target="_blank">LIVE SITE</a>
-          <a class="project-button" href="https://github.com/Williamconnelly/punch-card" target="_blank">CODE</a>
-        </div>
-        <div class="project-desc">
-          <span>A proof-of-concept app which allows users to punch digitized, restaurant reward cards.</span>
-        </div>
-        <div class="project-tech">
-          <ul>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Express</li>
-            <li>MongoDB</li>
-            <li>Mongoose</li>
-          </ul>
+        <div class="project-card">
+          <img class="preview-image punchcard-img" src="static/img/punchcard.png" alt="Punch Card">
+          <div class="project-content">
+            <div class="project-title">
+              <h2>Punch Card</h2>
+            </div>
+            <div class="project-buttons">
+              <a class="project-button" href="/projects/punchcard">DETAILS</a>
+              <a class="project-button" href="https://punch-card.herokuapp.com/" target="_blank">LIVE SITE</a>
+              <a class="project-button" href="https://github.com/Williamconnelly/punch-card" target="_blank">CODE</a>
+            </div>
+            <div class="project-desc">
+              <p>A proof-of-concept app which allows users to punch digitized, restaurant reward cards.</p>
+            </div>
+            <div class="project-tech">
+              <ul>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+                <li>Mongoose</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-    <script src="static/js/script.js"></script>
+    <footer class="footer">
+      <p>© 2018 William Connelly</p>
+      <span style="font-size: 1.5em;">
+        <a href="https://github.com/Williamconnelly" target="_blank"><i class="fab fa-github landing-icon"></i></a>
+        <a href="https://www.linkedin.com/in/williamrconnelly/" target="_blank"><i class="fab fa-linkedin landing-icon"></i></a>
+        <a href="mailto:williamconnelly.dev@gmail.com"><i class="fas fa-envelope-square landing-icon"></i></a>
+        <a href="static/resume/WilliamConnelly-Resume.pdf" target="_blank"><i class="fas fa-file-download 
+          landing-icon"></i></a>
+      </span>
+    </footer>
+  <script src="static/js/script.js"></script>
   </body>
 </html>

@@ -36,6 +36,5 @@ var addGifHover = () => {
 };
 
 document.addEventListener("DOMContentLoaded", e => {
-  M.AutoInit();
   addGifHover();
 });

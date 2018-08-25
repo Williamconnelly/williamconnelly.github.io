@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Raleway:400,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <title>William Connelly</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+  </head> 
+  <body>
+    <div class="site-wrapper">
+      <nav class="nav-buttons">
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About Me</a>
+        <a href="../projects.html">Projects</a>
+      </nav>
+      <header class="page-header">
+        <h1>William Connelly</h1>
+        <h3>Full-Stack Web Developer</h3>
+      </header>
+      <div class="details-wrapper">
+        <header>
+          <h1>Good Market</h1>
+        </header>
+        <hr />
+        <div class="detail-image">
+          <img src="../static/img/goodmarket_show.png" alt="Good Market">
+        </div>
+        <div class="project-buttons">
+          <a class="project-button" href="https://good-market.herokuapp.com/" target="_blank">LIVE SITE</a>
+          <a class="project-button" href="https://github.com/Williamconnelly/goodmarket" target="_blank">CODE</a>
+        </div>
+        <div>
+          <p>
+            Good Market is a charity-focused, user-centric, e-commerce site where users can either purchase 
+            items they want or sell to other people. When posting an item to the marketplace, a seller determines 
+            what percentage of their transaction should go to a supported charity of their choosing. Good Market 
+            was built by myself along with two other developers, Kacy Sommers and Jacob Spade.
+            <br />
+            <br />
+            My role in the development of the site was multi-faceted, however my most notable code contributions 
+            were the creation, styling, and back-end integration of the user’s checkout cart, the sign-in pages, 
+            and the charity listing. I also tackled the most challenging aspect of the site alongside fellow 
+            developer Kacy Sommers, the integration of the Stripe API, which is what allows users to enter their 
+            card information and create transactions between one another. I also took a central role in managing a 
+            lot of the project’s workflow. 
+            <br />
+            <br />
+            <span>NOTE: Good Market is running it’s transactions through Stripe in TEST MODE.</span> No money will be 
+            extracted from or added to your account, though the site fully simulates the actual process. 
+            Before posting items for sale or purchasing the items in their cart, a user must first complete 
+            their account registration. Good Market’s user flow looks something like this:
+          </p>
+          <ul>
+            <li>
+              <p>A user can openly browse the marketplace, the list of supported charities, and user profiles 
+                  without needing an account themselves.</p>
+            </li>
+            <li>
+              <p>If a user creates an account and sets up their profile, they are then able to post items to 
+                the marketplace and determine how much of each sale they want to forward to charity. They can 
+                also now complete purchases. </p>
+            </li>
+            <li>
+              <p>Once they have entered their payment information, both the buyer and sellers will receive an 
+                e-mail notification of the transaction and a buyer will be given the opportunity to leave a 
+                comment or review on the sellers’ profiles.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="tech-wrapper">
+          <div class="tech-details">
+            <h3>Front-End</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript (ES6)</li>
+            </ul>
+          </div>
+          <div class="tech-details">
+            <h3>Back-End</h3>
+            <ul>
+              <li>Python</li>
+              <li>Django</li>
+              <li>PostgreSQL</li>
+              <li>stripe api</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>© 2018 William Connelly</p>
+      <span style="font-size: 1.5em;">
+        <a href="https://github.com/Williamconnelly" target="_blank"><i class="fab fa-github landing-icon"></i></a>
+        <a href="https://www.linkedin.com/in/williamrconnelly/" target="_blank"><i class="fab fa-linkedin landing-icon"></i></a>
+        <a href="mailto:williamconnelly.dev@gmail.com"><i class="fas fa-envelope-square landing-icon"></i></a>
+        <a href="resume/WilliamConnelly-Resume.pdf" target="_blank"><i class="fas fa-file-download 
+        landing-icon"></i></a>
+      </span>
+    </footer>
+  <script src="../static/js/script.js"></script>
+  </body>
+</html>

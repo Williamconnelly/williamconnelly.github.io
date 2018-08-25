@@ -365,6 +365,70 @@ nav a {
 }
 
 /* 
+---------------------------
+----- Project Details -----
+---------------------------
+*/
+
+.details-wrapper {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.details-wrapper header h1 {
+  font-size: 3em;
+  margin: 0.3em 0;
+  text-align: center;
+}
+
+.detail-image {
+  text-align: center;
+}
+
+.details-wrapper img {
+  width: 80%;
+  margin: 1em 0;
+}
+
+.details-wrapper ul {
+  padding-left: 1em;
+}
+
+.details-wrapper span {
+  font-weight: bold;
+}
+
+.tech-wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+.details-wrapper p {
+  text-align: left;
+}
+
+.tech-wrapper li {
+  text-align: center;
+  vertical-align: top;
+}
+
+.tech-details {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
+
+.tech-details h3 {
+  text-align: center;
+}
+
+.tech-wrapper {
+  margin: 2em 0 3em 0;
+  text-align: center;
+}
+
+/* 
 ------------------
 ----- Header -----
 ------------------
@@ -418,6 +482,19 @@ nav a {
   }
   .about-wrapper {
     width: 70vw;
+  }
+  .details-wrapper img {
+    width: 100%;
+  }
+  .tech-wrapper {
+    margin: 0 0 3em 0;
+    text-align: left;
+  }
+  .tech-details {
+    display: block;
+  }
+  .tech-details h3, .tech-details li {
+    text-align: left;
   }
 }
 
